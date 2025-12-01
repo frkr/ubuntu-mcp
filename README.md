@@ -2,7 +2,9 @@
 
 This project provides a small Ubuntu-based container that exposes a safe-ish HTTP API to execute shell commands inside the container. It also includes an MCP (Model Context Protocol) tool definition using FastMCP when run in stdio mode. By default, the Docker image serves an HTTP API with FastAPI/Uvicorn on port 9000.
 
-Contents
+> The goal here is to provide a sandbox for other AI`s to run local code without changing the system.
+
+Contents:
 
 - Ubuntu 22.04 base image
 - Python 3 with FastAPI, Uvicorn, and FastMCP
