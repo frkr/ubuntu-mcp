@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ubuntu_mcp": {
+      "description": "Ubuntu Command Server, its only way to execute commands because of security.",
+      "url": "http://localhost:9000/api/exec"
+    }
+  }
+}

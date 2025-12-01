@@ -1,0 +1,1 @@
+docker push frkr/ubuntu-mcp:22.04
